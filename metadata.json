@@ -1,0 +1,8 @@
+{
+  "name": "SonoAX — Cinematic Engineering",
+  "description": "A premium, cinematic portfolio for Giovanni D. (SonoAX) focusing on infrastructure, AI tooling, and high-end video production.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
