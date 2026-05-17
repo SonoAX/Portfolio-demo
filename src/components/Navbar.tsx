@@ -85,7 +85,7 @@ export function Navbar() {
         {/* Left: Logo */}
         <div className="flex-1 flex items-center gap-3 justify-start overflow-hidden">
           <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center overflow-hidden">
-            <img src="/skinmc-avatar.png" alt="Logo" className="w-full h-full object-cover scale-110" />
+            <img src={`${import.meta.env.BASE_URL}skinmc-avatar.png`} alt="Logo" className="w-full h-full object-cover scale-110" />
           </div>
           <span className="font-heading italic text-xl text-black dark:text-white hidden sm:block">SonoAX</span>
         </div>
