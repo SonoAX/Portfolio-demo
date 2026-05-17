@@ -23,11 +23,13 @@ const shinyGradientStyle: React.CSSProperties = {
   filter: 'url(#c3-noise)',
 };
 
+const base = import.meta.env.BASE_URL;
+
 const LOGOS: Logo[] = [
   {
     id: "minecraft",
     nameKey: "exp.minecraft.name",
-    src: "/mc-icon.png",
+    src: `${base}mc-icon.png`,
     eyebrowKey: "exp.minecraft.eyebrow",
     descKey: "exp.minecraft.desc",
     tags: ["Fabric", "Paper", "Velocity", "Java", "AXQOL · 90 mods"],
@@ -36,7 +38,7 @@ const LOGOS: Logo[] = [
   {
     id: "modrinth",
     nameKey: "exp.modrinth.name",
-    src: "/modrinth.png",
+    src: `${base}modrinth.png`,
     eyebrowKey: "exp.modrinth.eyebrow",
     descKey: "exp.modrinth.desc",
     tags: ["Modpack", "2 docs", "axqol.sonoax.site"],
@@ -46,7 +48,7 @@ const LOGOS: Logo[] = [
   {
     id: "openclaw",
     nameKey: "exp.openclaw.name",
-    src: "/openclaw-color.svg",
+    src: `${base}openclaw-color.svg`,
     eyebrowKey: "exp.openclaw.eyebrow",
     descKey: "exp.openclaw.desc",
     tags: ["n8n", "Local LLMs", "Agentic Workflows", "OpenClaw"],
@@ -56,7 +58,7 @@ const LOGOS: Logo[] = [
   {
     id: "resolve",
     nameKey: "exp.resolve.name",
-    src: "/davinci.png",
+    src: `${base}davinci.png`,
     eyebrowKey: "exp.resolve.eyebrow",
     descKey: "exp.resolve.desc",
     tags: ["Editing", "Color Grading", "Fusion", "Fairlight"],
@@ -65,7 +67,7 @@ const LOGOS: Logo[] = [
   {
     id: "fcp",
     nameKey: "exp.fcp.name",
-    src: "/Final_Cut_Pro_LG_2025.webp",
+    src: `${base}Final_Cut_Pro_LG_2025.webp`,
     eyebrowKey: "exp.fcp.eyebrow",
     descKey: "exp.fcp.desc",
     tags: ["Apple Silicon", "Short-form", "Magnetic Timeline"],
@@ -74,7 +76,7 @@ const LOGOS: Logo[] = [
   {
     id: "docker",
     nameKey: "exp.docker.name",
-    src: "/docker.png",
+    src: `${base}docker.png`,
     eyebrowKey: "exp.docker.eyebrow",
     descKey: "exp.docker.desc",
     tags: ["Docker", "Kubernetes", "Self-hosted", "7-node cluster"],
